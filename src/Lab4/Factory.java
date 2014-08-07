@@ -7,10 +7,15 @@
 package Lab4;
 
 
-/**
- *
- * @author Dell Latitude
- */
+/*
+	Creado por: 
+	Johnny del Cid 13032
+	Sergio Cancinos 13062
+	Luis Carlos Ralón 13030
+	Factory.java
+	Factory que se encarga de administrar que tipo de almacenamiento se escoje
+        dependiendo de la decisión del usuario.
+*/
 class Factory<E> {
     //selecciona la implementacion a utilizar para un stack
     //se utiliza el patron Factory

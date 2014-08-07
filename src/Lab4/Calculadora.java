@@ -1,9 +1,14 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+	Creado por: 
+	Johnny del Cid 13032
+	Sergio Cancinos 13062
+	Luis Carlos Ralón 13030
+	Calculadora.java 
+	
+	Clase  encargada de instaciar a la factory para pedir el tipo de lista, 
+	realiza las operaciones adentro del archivo de texto y pide el dato al usuario al momento
+	que tiene que elejir un tipo de almacenamiento.
+*/
 package Lab4;
 
 import java.io.BufferedReader;
@@ -31,13 +36,7 @@ public class Calculadora {
     public String res ="";
             
     public String menu(){
-        System.out.println("Bienvenido, escoja el tipo de Almacenamiento");
-   
-        res = JOptionPane.showInputDialog("\n1. Para escoger ArrayList\n2. Para escoger Vector\n3. Para escoger un tipo de lista");
-        //System.out.println("\n1. Para escoger ArrayList\n2. Para escoger Vector\n3. Para escoger un tipo de lista");
-  
-            
-     
+        res = JOptionPane.showInputDialog("Bienvenido, escoja el tipo de Almacenamiento \n1. Para escoger ArrayList\n2. Para escoger Vector\n3. Para escoger un tipo de lista");
         return res;
     }
     

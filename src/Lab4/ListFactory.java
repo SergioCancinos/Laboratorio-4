@@ -1,9 +1,12 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+	Creado por: 
+	Johnny del Cid 13032
+	Sergio Cancinos 13062
+	Luis Carlos Ralón 13030
+	ListFactory.java
+	Factory que se encarga de administrar los tipos de lista dependiendo
+        de la decisión del usuario.
+*/
 package Lab4;
 
 /**

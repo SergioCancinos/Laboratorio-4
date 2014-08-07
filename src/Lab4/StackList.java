@@ -1,24 +1,24 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+	Creado por: 
+	Johnny del Cid 13032
+	Sergio Cancinos 13062
+	Luis Carlos Ralón 13030
+	StackList.java
+	Tipo de almacenamiento, de esta se puede escojer un tipo de lista.  	
+*/
 package Lab4;
 import java.util.*;
-/**
- *
- * @author Dell Latitude
- */
+import javax.swing.JOptionPane;
+
 public class StackList<E> extends AbstractStack<E> {
     public ListFactory miFactor = new ListFactory();
     protected List<E> data = miFactor.getList(menu());
+    private String res = ""; 
     
     public String menu()
     {
-        System.out.println("\nEscoja el tipo de lista:");
-        System.out.println("\n4. Para una lista con nodo simple \n5. Para una lista con doble nodo \n6. Para una lista circular");
-        return "5";
+        res = JOptionPane.showInputDialog("\nEscoja el tipo de lista: \n4. Para una lista con nodo simple \n5. Para una lista con doble nodo \n6. Para una lista circular");
+        return res;
     }
     
 
